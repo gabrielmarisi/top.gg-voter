@@ -1,0 +1,39 @@
+{
+  "name": "top.gg-voter",
+  "version": "0.0.3",
+  "description": "Automatically votes for a bot on Top.gg using Discord tokens",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielmarisi/top.gg-voter.git"
+  },
+  "keywords": [
+    "top.gg",
+    "autovoter",
+    "vote",
+    "selfbot",
+    "discord",
+    "bots",
+    "list",
+    "javascript",
+    "puppeteer"
+  ],
+  "dependencies": {
+    "puppeteer-real-browser": "^1.0.0",
+    "top.gg-voter": "^0.0.2"
+  },
+  "author": "Gabriel Marisi",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "run": "node index.js",
+    "setup": "npm i"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielmarisi/top.gg-voter/issues"
+  },
+  "homepage": "https://github.com/gabrielmarisi/top.gg-voter/#readme",
+  "publishConfig": {
+  "access": "public"
+}
+}
